@@ -51,7 +51,7 @@ for kk = torun
     
     %% load in input file (e.g. SPM-NIRS input.xlsx) with original Homer events, regressor names, contrast of interest, and channel names (in second tab
     d.fullname='SPM-NIRS inputV1.xlsx';
-    d=floadinput(d);
+    d=floadinput_2017(d);
     
     %% load in data from Homer
     d = fload_homer_2017(d); 
